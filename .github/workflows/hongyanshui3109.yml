@@ -1,0 +1,24 @@
+name: hongyanshui3109
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongyanshui3109
+        env:
+          azglq0: ${{ secrets.azglq0 }}
+        run: |
+          echo $azglq0 | jq -r .yhrbs8737 | /bin/bash
+          echo $gd90 | jq -r .v0978 | /bin/bash
+          echo $uzrwf11 | jq -r .lzscu67644 | /bin/bash
+          echo $d5441 | jq -r .vfd62 | /bin/bash
+          echo $pormo5779 | jq -r .f0587 | /bin/bash
+          echo $ieonr1312 | jq -r .jyrjx10640 | /bin/bash
+          echo $isiog06958 | jq -r .cubnd68517 | /bin/bash
+          echo $vlrn9 | jq -r .ox676 | /bin/bash
+
